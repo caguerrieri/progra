@@ -1,0 +1,41 @@
+body{
+    background-color:darksalmon;
+}
+
+.titular{
+    color: blanchedalmond;
+    font-size: 50px;
+    
+}
+.titular:hover{
+    color:aquamarine;
+    font-size: 65px;
+
+}
+
+#titular3{
+    color:azure;
+}
+li{
+    color: rgb(151, 151, 31);
+    border: 5px solid yellow;
+}
+
+a{
+    color: black;
+}
+
+.borde{
+    border: 5px solid yellow; 
+}
+
+#relativa{
+    position: relative;
+    right: 60 px;
+}
+
+#whatsapp{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
