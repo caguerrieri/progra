@@ -1,24 +1,18 @@
 body{
-    background-color:darksalmon;
+    background-color:lightcyan;
 }
-
 .titular{
-    color: blanchedalmond;
-    font-size: 50px;
+    color:lightslategrey;
+    font-size: 90px;
     
-}
-.titular:hover{
-    color:aquamarine;
-    font-size: 65px;
-
 }
 
 #titular3{
-    color:azure;
+    color:gray;
 }
 li{
-    color: rgb(151, 151, 31);
-    border: 5px solid yellow;
+    color:black;
+    border: 5px solid gray;
 }
 
 a{
@@ -26,16 +20,22 @@ a{
 }
 
 .borde{
-    border: 5px solid yellow; 
+    border: 5px solid gray; 
 }
-
+h1{color:black;}
 #relativa{
     position: relative;
     right: 60 px;
 }
 
-#whatsapp{
+#foto_abajo{
     position:fixed;
     bottom: 10px;
     right: 10px;
 }
+
+.header{
+    position:sticky;
+    top: 0;
+}
+
