@@ -2,17 +2,22 @@ body{
     background-color:lightcyan;
 }
 .titular{
+    font-family: 'Times New Roman', Times, serif;
     color:lightslategrey;
-    font-size: 90px;
-    
+    font-size: 90px; 
 }
-
+#menu{
+    display: inline;
+    color: khaki;
+    background-color: slategray;
+}
 #titular3{
     color:gray;
 }
 li{
+    display: inline;
+    margin-left: 15px;
     color:black;
-    border: 5px solid gray;
 }
 
 a{
@@ -37,5 +42,22 @@ h1{color:black;}
 .header{
     position:sticky;
     top: 0;
+}
+/*para hacer margenes*/
+#caja1{
+    border: 1px solid rosybrown;
+    background-color: rosybrown;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+/*tamaño imagen*/
+#imag{
+    width: 100%;
+}
+
+span{
+    border: 1px ;
+    display: block;
 }
 
