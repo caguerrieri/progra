@@ -1,10 +1,10 @@
 body{
-    background-color:lightcyan;
+    background-color: gray;
 }
 .titular{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:lightslategrey;
-    font-size: 90px; 
+    font-size: 20px; 
 }
 #menu{
     display: inline;
@@ -33,10 +33,11 @@ h1{color:black;}
     right: 60 px;
 }
 
-#foto_abajo{
+#foto_arriba{
     position:fixed;
     top: 10px;
     right: 10px;
+    width: 100px;
 }
 
 .header{
@@ -61,3 +62,12 @@ span{
     display: block;
 }
 
+#parteArriba{
+    background-color: white;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+ul{
+    left: 90px;
+}
