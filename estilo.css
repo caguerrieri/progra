@@ -55,6 +55,7 @@ h1{color:black;}
 /*tamaño imagen*/
 #imag{
     width: 100%;
+    margin-left: 0%;
 }
 
 .span{
