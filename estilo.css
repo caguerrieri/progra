@@ -61,14 +61,13 @@ h1{color:black;}
     border: 1px ;
     display: block;
 }
-
+#logo{width: 40%;}
 #parteArriba{
     background-color: white;
     position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
-    height: 25%;
 }
 ul{
     left: 90px;
@@ -80,7 +79,9 @@ ul{
     justify-content: space-around;
     align-items: center;
   }
- 
+#fotitos{
+    width: 30%;
+}
 /**.flex-container > div {
     background-color: green;
     margin: 10px;
@@ -102,3 +103,4 @@ ul{
     
     
 }
+#imag{width: 100%;}
