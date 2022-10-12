@@ -79,8 +79,12 @@ ul{
     justify-content: space-around;
     align-items: center;
   }
-#fotitos{
-    width: 10%;
+#fotitos1{
+    width: 20%;
+}
+
+#fotitos2{
+    width: 30%;
 }
 /**.flex-container > div {
     background-color: green;
