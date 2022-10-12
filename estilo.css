@@ -54,7 +54,7 @@ h1{color:black;}
 
 /*tamaño imagen*/
 #imag{
-    width: 101%;
+    width: 100%;
 }
 
 .span{
@@ -80,7 +80,7 @@ ul{
     align-items: center;
   }
 #fotitos{
-    width: 30%;
+    width: 10%;
 }
 /**.flex-container > div {
     background-color: green;
