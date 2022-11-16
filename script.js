@@ -1,14 +1,14 @@
 
-var carrito = {
+let carrito = {
   id: "default",
   img: "deefault",
   des: "default",
   precio: 0,
   cantidad: 0
 };
-var precioTotal = 0;
-var compraImg;
-var compraDes;
+let precioTotal = 0;
+let compraImg;
+let compraDes;
 
 function anadirCarrito(id, img, des, precio, cantidad) {
   carrito.id = id;
@@ -18,7 +18,7 @@ function anadirCarrito(id, img, des, precio, cantidad) {
   carrito.cantidad = parseInt(cantidad);
 }
 
-for (var i = 0; i < document.getElementsByClassName("producto").length; i++) {
+for (let i = 0; i < document.getElementsByClassName("producto").length; i++) {
   document.getElementsByClassName("producto")[i].onclick = function() {
       this.dataset.cantidad++;
       anadirCarrito(this.dataset.idproducto, this.dataset.img, this.dataset.des, this.dataset.precio, this.dataset.cantidad);
@@ -27,7 +27,7 @@ for (var i = 0; i < document.getElementsByClassName("producto").length; i++) {
       document.getElementById("precioTotal").innerHTML = "Total: $" + precioTotal;
       if (this.dataset.cantidad <= 1) {
           //Agregar div con contenido unico de carrito de compras (solo puede existir 1)
-          var compra = document.createElement("div");
+          let compra = document.createElement("div");
           compra.setAttribute("id", carrito.id);
           document.getElementById("carritoDeCompras").appendChild(compra);
           agregarElementos(this.dataset.cantidad);
@@ -101,12 +101,12 @@ function eliminarElementos() {
 }
 
 function sumar(idBoton) {
-  for (var j = 0; j < document.getElementsByClassName("producto").length; j++) {
+  for (let j = 0; j < document.getElementsByClassName("producto").length; j++) {
       if (document.getElementById(idBoton).parentNode.id == document.getElementsByClassName("producto")[j].dataset.idproducto) {
           break;
       }
   }
-  var nuevaData = document.getElementsByClassName("producto")[j].dataset;
+  let nuevaData = document.getElementsByClassName("producto")[j].dataset;
   nuevaData.cantidad++;
   anadirCarrito(nuevaData.idproducto, nuevaData.img, nuevaData.des, nuevaData.precio, nuevaData.cantidad);
   agregarElementos(carrito.cantidad);
@@ -116,12 +116,12 @@ function sumar(idBoton) {
 }
 
 function restar(idBoton) {
-  for (var j = 0; j < document.getElementsByClassName("producto").length; j++) {
+  for (let j = 0; j < document.getElementsByClassName("producto").length; j++) {
       if (document.getElementById(idBoton).parentNode.id == document.getElementsByClassName("producto")[j].dataset.idproducto) {
           break;
       }
   }
-  var nuevaData = document.getElementsByClassName("producto")[j].dataset;
+  let nuevaData = document.getElementsByClassName("producto")[j].dataset;
   nuevaData.cantidad--;
   anadirCarrito(nuevaData.idproducto, nuevaData.img, nuevaData.des, nuevaData.precio, nuevaData.cantidad);
   eliminarElementos(carrito.cantidad);
