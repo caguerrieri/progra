@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "FunctionRegular";
+    src: url(FunctionRegular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    list-style: none;
+
+    font-family: FunctionRegular;
+}
+
+header{
+    padding: 0px 40px;
+    background-color: #383838;
+    color: white;
+    margin-bottom: 40px;
+}
+/* Este es un div contiene toda la pagia web, su padre es el body */
+
+
+
+header {
+    font-size: 100%;
+    line-height: 20px;
+}
+
+header h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Este es un div contiene cada producto por separado */
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.Comprar {
+    color: green;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#carritoDeCompras {
+
+    padding-bottom: 15px;
+
+    border-top: 1px solid #ccc;
+}
+
+#carritoDeCompras div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #ccc;
+}
+
+#carritoDeCompras img {
+    float: left;
+
+    width: 70px;
+    margin-right: 10px;
+}
+
+#carritoDeCompras h2 h3 {
+    font-size: 150%;
+}
+
+#carritoDeCompras .cantidad {
+    float: right;
+
+    line-height: 25px;
+}
+
+#carritoDeCompras button {
+    display: inline-block;
+    float: right;
+
+    margin: 0 10px;
+    padding: 5px 15px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    border: none;
+    background-color: #555555;
+
+    font-size: 13px;
+}
+
+#carritoDeCompras .mas {
+    margin-right: 40%;
+}
+
+#carritoDeCompras button:focus {
+    outline: 0px;
+}
+
+#carritoDeCompras button:hover {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+#precioTotal {
+    float: right;
+
+    background-color: white;
+
+    font-size: 200%;
+}
+
+
+#padding{
+    padding-left: 40%;
+}
+
+#fotitos{
+    width: 100%;
+    height: 200px;
+}
+.producto{
+    width: 100%;
+}
+ p, h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+ }

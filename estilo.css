@@ -30,7 +30,6 @@ a{
 h1{color:black;}
 #relativa{
     position: relative;
-    right: 60 px;
 }
 
 #foto_arriba{
@@ -74,6 +73,7 @@ ul{
 }
 
 .flex-container {
+    width: 100%;
     display: flex;
     background-color: black;
     justify-content: space-around;
@@ -111,4 +111,10 @@ ul{
 
 .colorBotones{
     color: antiquewhite;
+}
+#lineaderaquetas{
+    width: 100%;
+}
+main{
+    width: 100%;
 }
