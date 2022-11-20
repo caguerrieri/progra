@@ -72,6 +72,20 @@ ul{
     left: 90px;
 }
 
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+
+.imagenesRedes{
+    padding: 5px;
+    padding-top: 10px;
+    width: 80px;
+    height: 80px;
+    gap: 30px;
+    justify-content: center;
+}
 .flex-container {
     width: 100%;
     display: flex;
