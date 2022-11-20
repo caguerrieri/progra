@@ -1,0 +1,113 @@
+body{color: black;}
+body{background-color: rgb(52, 51, 51) !important;}
+h1{color: black;}
+#titulo{color:white;
+    background-color: gray;
+    padding-top: 40px;
+    }
+.form-label{width: 60%;}
+p{color: black;}
+label{color: black;}
+input{color: black;}
+#inputNombre{width: 65%;}
+#inputDireccion{width: 65%;}
+#completa{width: 40%;}
+#valorProducto{display:none!important;}
+#listaProductos{display:none!important;}
+.btnbtn-primar{ color: black; text-align: center;}
+a{text-align: center;}
+h1{color: black;text-align: center;}
+h2{color: black;text-align: center;}
+h5{color: black;}
+h3{color: black;text-align: center;}
+h4{color: black;text-align: center;}
+#Submit1{background-color: rgb(52, 52, 52);text-align: center;}
+#expl{text-align: center;}  
+th{color: black;}
+td{text-align: center;}
+#Radio{color:black;justify-content:space-around;word-spacing: 80PX;}
+#cant{color: black;}
+.acido{width: 40%; ; height: 350px;}
+#volver{color: black;} 
+.btnnbtn-primary{background-color: white;color: black; position: sticky;bottom: 10px;}
+.btnnnbtn-primary{background-color: black;color: black;}
+.submit{background-color:rgb(234, 234, 250);color: black;height: 40px; position: sticky;}
+#carrito{position: fixed;bottom: 15px;left: 40% ;width: 300px;}
+#calculos{text-align: center;}
+footer{text-align: center;}
+footer > a{color: black;}
+.sc-10gk5i5-3{color: black; }
+.crema1{
+    width: 10%; 
+    height: 200px;
+}
+.locion{
+    width: 180px; 
+    height: 250px;
+}
+.sc-10gk5i5-5{color: black;}
+.bSGoKg {padding: 0px 10px 12px;}
+input{display:inline}
+.form-control{display: inline!important;}
+tbody, td, tfoot, th, thead, tr{border-style: none!important;}
+.color{
+    background-color: gray!important;
+    border: gray!important;
+}
+.bord{border-color: white!important;}
+.fixed-top{padding-top: 5px!important; }
+
+a{text-decoration: none;}
+
+.navbar{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding: 5px;
+    --bs-navbar-toggler-focus-width: 0.8px;
+    --bs-navbar-color: black;
+    --bs-navbar-hover-color: black;
+    text-decoration: none!important;
+
+}
+
+#logo{width: 25%;}
+#img-icono{
+    width: 60px;
+}
+.dropdown {display: inline-block;
+    position: relative;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    z-index: 2;}
+.dropdown:hover .dropdown-content {
+    display: block;}
+.dropdown-content a {
+    display: block;
+    color: #000000;
+    background-color: white;
+    padding: 5px;
+    text-decoration: none;
+  }
+.dropdown-content a:hover {
+    color:black;
+    background-color: #00A4BD;
+  }
+
+#aci1
+{
+  border-top: 0cm;
+  }
+#cre1
+  {
+    border-top: 0cm;
+    }
+#loc1
+{
+    border-top: 0cm;
+}
+#imgVenta{
+    width: 120%;
+    height: 80%;
+}
